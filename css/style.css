@@ -52,3 +52,17 @@ h1 {
 .add-to-cart-btn {
     margin-right: 5px;
 }
+@media (max-width :768px){
+    .cart{
+        width: 90%;
+        margin: 0px 5% !important;
+
+    }
+    }
+@media (max-width : 567px){
+.cart{
+    width: 90%;
+    margin: 0px 5% !important;
+
+}
+}
