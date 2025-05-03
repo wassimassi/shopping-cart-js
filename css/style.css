@@ -1,0 +1,54 @@
+h1 {
+    color: blue !important;
+    margin: 20px auto !important;
+    text-align: center;
+}
+
+.container-fluid {
+    margin: 0px 5% !important;
+}
+
+.container {
+    margin: 0px 5% !important;
+}
+
+.row {
+    margin: 50px 0px !important;
+}
+
+.cart {
+    width: 50%;
+    margin: 0px 25% !important;
+    background-color: lightblue;
+}
+
+.cart ul {
+    margin: 0px 20px !important;
+
+}
+
+.card {
+    transition: all 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    /* margin-left: 100px; */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    transition: all 0.5s ease;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.add-to-cart-btn {
+    margin-right: 5px;
+}
